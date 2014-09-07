@@ -1,0 +1,2 @@
+for %i in (assets\photos\*)
+do echo   - name: %~nxi >> _data/photos_photos.yml
