@@ -1,0 +1,8 @@
+- name: Home
+  uri: /
+- name: Photos
+  uri: /photos
+- name: Classes
+  uri: /classes
+- name: About
+  uri: /about
