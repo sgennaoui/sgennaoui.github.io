@@ -2,7 +2,7 @@
   <!-- Carousel items -->
   <div class="carousel-inner">
     {% for photo in site.data.homepage_photos.members %}
-    <div class="item{% if photo.name == "1.jpg" %} active{% endif %}">
+    <div class="item{% if forloop.index == 1 %} active{% endif %}">
       <img src="{{ site.data.homepage_photos.prefix }}/{{ photo.name }}" alt="">
     </div>
     {% endfor %}
