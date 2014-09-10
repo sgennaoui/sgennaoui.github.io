@@ -2,6 +2,6 @@
 <p />
 <div class="panel-footer text-center">
   <footer class="row">
-    <p>Questions, comments, concerns, criticisms, and critiques may be directed to <a href="mailto:webmaster@seattlecapoeirauncao.com">webmaster@seattlecapoeirauncao.com</a></p>
+    <p>Questions, comments, concerns, criticisms, and critiques may be directed to <a href="mailto:webmaster@seattlecapoeirauncao.com"><span itemprop="email">webmaster@seattlecapoeirauncao.com</span></a></p>
   </footer>
 </div>
