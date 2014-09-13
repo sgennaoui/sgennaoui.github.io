@@ -2,11 +2,11 @@ body
 {
     padding-top: 40px;
 }
+
 .carousel .item
 {
     height: 500px;
 }
-
 .carousel img
 {
     position: absolute;
@@ -15,4 +15,14 @@ body
     bottom: 0;
     right: 0;
     margin: auto;
+}
+
+#masonryPhotos
+{
+    margin: 0 auto;
+}
+.masonryImage img
+{
+    width: 300px;
+    margin-bottom: 10px;
 }

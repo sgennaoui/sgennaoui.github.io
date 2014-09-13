@@ -10,9 +10,27 @@ title: Photos
       {% include all_emergency_alert %}
 
       <p>Photos!</p>
-
+      <div id="masonryPhotos">
+        {% for photo in site.data.photos_photos.members %}
+          <div class="masonryImage">
+            <img src="{{ site.data.photos_photos.prefix }}/{{ photo.name }}" alt="">
+          </div>
+        {% endfor %}
+      </div>
       {% include all_footer %}
     </div>
     {% include all_bootstrap_core_js %}
+    <script>
+      $(function(){
+        var $container = $('#masonryPhotos');
+        $container.imagesLoaded( function(){
+          $container.masonry({
+            itemSelector : '.masonryImage',
+            columnWidth : 300,
+            gutterWidth : 10
+          });
+        });
+      });
+    </script>
   </body>
 </html>
